@@ -1,0 +1,30 @@
+.custom-navbar {
+background-color: #000000; /* Navbar background */
+padding: 0.8rem 1rem;
+}
+
+.custom-navbar .navbar-brand {
+color: #FFDEDE; /* Light pink text */
+font-weight: bold;
+margin-right: 1.5rem;
+transition: color 0.3s ease;
+}
+
+.custom-navbar .navbar-brand:hover {
+color: #FF0B55; /* Bright pink on hover */
+text-decoration: underline;
+}
+
+.custom-navbar .navbar-toggler {
+background-color: #CF0F47; /* Button color for toggler */
+}
+
+body {
+background-color: #FFDEDE; /* Light pink body background */
+color: #000000; /* Default text color */
+}
+
+/* Optional: Smooth transition effect */
+.custom-navbar, .navbar-brand {
+transition: all 0.3s ease-in-out;
+}
