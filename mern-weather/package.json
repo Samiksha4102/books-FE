@@ -1,0 +1,14 @@
+{
+  "name": "mern-weather",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "setup": "cd server && npm install && cd ../client && npm install",
+    "dev": "concurrently \"npm:server\" \"npm:client\"",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev -- --host"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
